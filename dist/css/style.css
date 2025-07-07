@@ -1,0 +1,9 @@
+.btn-primary, 
+.card-primary:not(.card-outline)>.card-header,
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active
+{ background-color: #00377b !important;}
+
+/*.breadcrumb-item a { color: #00377b !important; }*/
+
+.error{ color: chocolate; }
+.ekko-lightbox.modal.fade.in div.modal-dialog{ max-height: 100% !important; max-width: 866px !important; }

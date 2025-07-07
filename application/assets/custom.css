@@ -1,0 +1,126 @@
+
+.modal-rojo .modal-header {background-color: #d33724 !important;color: #fff; border-radius: 3px;}
+.modal-rojo .modal-body {color: #d00;}
+.modal-verde .modal-header {background-color:#00a65a; !important;color: #fff; border-radius: 3px;}
+.modal-verde .modal-body {color: #030;}
+
+.puntero{cursor:context-menu}
+.manito{cursor:pointer;}
+.denegado{cursor:not-allowed;}
+
+.cb{color:#fff}
+.cn{color:#333}
+.cr{color:#d00}
+.cg{color:#0a0}
+
+
+.np {padding:0 !important}
+.npr{padding-right:0 !important}
+.npl{padding-left:0 !important}
+.npt{padding-top:0 !important}
+.npb{padding-bottom:0 !important}
+
+.nmr{margin-right:0 !important}
+.nml{margin-left:0 !important}
+.nmt{margin-top:0 !important}
+.nmb{margin-bottom:0 !important}
+
+.nbr{border-right:0 !important }
+.nbl{border-left:0 !important }
+.nbt{border-top:0 !important }
+.nbb{border-bottom:0 !important }
+
+.al{text-align:left  !important}
+.ar{text-align:right !important}
+
+.tachado{text-decoration:line-through !important;}
+
+.hide{display:none}
+
+.side-menu .fa-refresh{
+   font-size:13px !important;
+   width:13px !important;
+   display:none;
+}
+.side-menu .head > a{
+
+box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+}
+
+.right_col{background-color:#fff !important}
+
+#dlg-frm-body{
+border-radius: 4px;
+}
+
+.flotante{
+	position:absolute;
+	/*top: -192px;*/
+	bottom: 30px;
+    background: #fafafa;
+    border: 1px solid #777;
+    border-radius: 0px;
+    
+    left: 13px;
+    box-shadow: 0px 0px 9px #000;
+	width:272px;
+	display:none;
+	max-height: 480px;
+    overflow-y: scroll;
+}
+.flotante .titulo{
+	font-size: 12px;display:block;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #ddd;
+    background: #eee;color:#333;
+    text-shadow: 0px 0px 2px #ccc;
+}
+
+.flotante .subtitulo{
+	display: block;
+    background: #ddd;
+    padding-left: 8px;
+}
+
+#menu_toolkit:hover  div{
+	display:block !important;
+}
+							
+#menu_toolkit img{
+	width: 13px;
+	display: block;
+	float: left;
+	margin-top: 0px;
+}
+
+.enlace{    
+	padding: 0px 8px;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+.error{ color: chocolate; }
+/*
+#dlg-frm.modal {
+    width: 560px;
+    margin-left: 280px;
+}
+
+#dlg-frm.modal-admin {
+    width: 750px;
+    margin-left: -375px;
+}
+*/
+@media only screen and (max-width: 767px){
+	body{
+		background-size: cover;
+		background-position: center;
+	}
+	.login_wrapper{
+		margin-top: 60%;
+	}
+	#panel-izq{ 
+		position: absolute;
+		right: 100%;
+	}
+}

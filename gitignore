@@ -1,0 +1,74 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs y editores
+.vscode/
+.idea/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+*.log
+
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+config.php
+database.php
+
+# Node.js (si usas herramientas de frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Archivos compilados y cache
+*.min.js
+*.min.css
+cache/
+tmp/
+temp/
+
+# Archivos de subida de usuarios
+uploads/
+storage/
+public/uploads/
+
+# Logs y datos temporales
+logs/
+*.log
+error_log
+access_log
+
+# Archivos de backup
+*.bak
+*.backup
+*.sql
+
+# Archivos específicos de frameworks PHP
+# Laravel
+bootstrap/cache/
+storage/app/
+storage/framework/
+storage/logs/
+
+# CodeIgniter
+application/cache/
+application/logs/
+
+# Archivos de testing
+coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Archivos de documentación generada
+docs/_build/
