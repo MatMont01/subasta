@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://bicorporate.tigo.net.bo/subasta';
+$config['base_url'] = "http://".$_SERVER['HTTP_HOST'].preg_replace('@/index.php.*@', '', $_SERVER['SCRIPT_NAME']);
 
 /*
 |--------------------------------------------------------------------------
